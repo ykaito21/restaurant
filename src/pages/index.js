@@ -7,6 +7,7 @@ import SEO from "../components/seo";
 import { HomeHeader, Banner, BannerButton } from "../utils";
 import img from "../images/bcg/homeBcg.jpeg";
 import QuickInfo from "../components/HomePageComponents/QuickInfo";
+import Gallery from "../components/HomePageComponents/Gallery";
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
       </Banner>
     </HomeHeader>
     <QuickInfo />
+    <Gallery />
   </Layout>
 );
 

@@ -80,7 +80,7 @@ const FooterWrapper = styled.footer`
     color: ${styles.colors.mainWhite};
     text-transform: capitalize;
     text-align: center;
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
   }
 `;
 
