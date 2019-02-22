@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 import styled from "styled-components";
 import { styles } from "../../utils";
+import { Link } from "gatsby";
 
 export class Footer extends Component {
   state = {
@@ -26,7 +27,9 @@ export class Footer extends Component {
   render() {
     return (
       <FooterWrapper>
-        <div className="title">eatery</div>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <div className="title">eatery</div>
+        </Link>
         <div className="icons">
           {this.state.icons.map(icon => {
             return (
