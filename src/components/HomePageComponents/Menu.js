@@ -7,14 +7,14 @@ import { Link } from "gatsby";
 
 const PRODUCTS = graphql`
   {
-    items: allContentfulMenu {
+    items: allContentfulRestaurantMenu {
       edges {
         node {
           name
           price
           id
           ingredients
-          img {
+          image {
             fixed(width: 150, height: 150) {
               ...GatsbyContentfulFixed_tracedSVG
             }

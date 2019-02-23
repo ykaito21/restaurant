@@ -1,13 +1,11 @@
 import React from "react";
-import { Section, Title, SectionButton } from "../../utils";
 import { styles } from "../../utils";
 import styled from "styled-components";
-import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
 function Product({ product }) {
   const { name, price, ingredients } = product;
-  const { fixed } = product.img;
+  const { fixed } = product.image;
   return (
     <ProductWrapper>
       <Img fixed={fixed} className="img" />
