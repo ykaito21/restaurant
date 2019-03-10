@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Zaffran`,
     description: `Restaurant Zaffran Website build with Gatsby`,
-    author: `yuki`
+    author: `@yuki`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
